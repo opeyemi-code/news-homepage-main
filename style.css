@@ -2,12 +2,50 @@
 
 body {
   font-family: "Inter", sans-serif;
+  background-color: hsl(36, 100%, 99%) !important;
 }
 
-nav a {
+.nav-link,
+p {
   color: hsl(236, 13%, 42%) !important;
 }
 
 .nav-link:hover {
   color: hsl(35, 77%, 62%) !important;
+}
+
+h1 {
+  color: hsl(240, 100%, 5%);
+  font-size: 3.5rem !important;
+}
+
+h2 {
+  color: hsl(35, 77%, 62%);
+  font-weight: 700;
+}
+p {
+  font-size: 15px;
+}
+
+.btn {
+  background-color: hsl(5, 85%, 63%) !important;
+  border-radius: 0 !important;
+  color: hsl(36, 100%, 99%) !important;
+}
+
+aside {
+  background-color: hsl(240, 100%, 5%);
+}
+
+aside ul h2 .nav-link {
+  color: hsl(36, 100%, 99%) !important;
+  font-size: 1.3rem;
+}
+
+aside p {
+  color: hsl(233, 8%, 79%) !important;
+}
+
+aside hr {
+  color: hsl(233, 8%, 79%);
 }
