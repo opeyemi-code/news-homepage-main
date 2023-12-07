@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+nav a {
+  color: hsl(236, 13%, 42%) !important;
+}
+
+.nav-link:hover {
+  color: hsl(35, 77%, 62%) !important;
+}
