@@ -10,13 +10,13 @@ p {
   color: hsl(236, 13%, 42%) !important;
 }
 
-.nav-link:hover {
-  color: hsl(35, 77%, 62%) !important;
+nav .nav-link:hover {
+  color: hsl(5, 85%, 63%) !important;
 }
 
 h1 {
   color: hsl(240, 100%, 5%);
-  font-size: 3.5rem !important;
+  ont-size: 3rem !important;
 }
 
 h2 {
@@ -27,19 +27,36 @@ p {
   font-size: 15px;
 }
 
+.showcase-img-container {
+  height: 260px;
+}
+
+.showcase-img-container img {
+  height: 260px;
+  width: 100%;
+}
+
 .btn {
   background-color: hsl(5, 85%, 63%) !important;
   border-radius: 0 !important;
   color: hsl(36, 100%, 99%) !important;
 }
 
+.btn:hover {
+  background-color: hsl(240, 100%, 5%) !important;
+}
+
 aside {
   background-color: hsl(240, 100%, 5%);
 }
 
-aside ul h2 .nav-link {
+aside .nav-link {
   color: hsl(36, 100%, 99%) !important;
   font-size: 1.3rem;
+}
+
+aside .nav-link:hover {
+  color: hsl(35, 77%, 62%) !important;
 }
 
 aside p {
