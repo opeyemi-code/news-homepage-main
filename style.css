@@ -16,13 +16,14 @@ nav .nav-link:hover {
 
 h1 {
   color: hsl(240, 100%, 5%);
-  ont-size: 3rem !important;
+  font-size: 3.4rem !important;
 }
 
 h2 {
   color: hsl(35, 77%, 62%);
   font-weight: 700;
 }
+
 p {
   font-size: 15px;
 }
@@ -65,4 +66,34 @@ aside p {
 
 aside hr {
   color: hsl(233, 8%, 79%);
+}
+
+.top-trends {
+  margin: 50px 0 30px;
+}
+
+.top-trends-img-container {
+  min-height: 120px;
+}
+
+.top-trends-img {
+  min-height: 120px;
+  width: 110px;
+  object-fit: cover;
+  display: block;
+}
+
+.top-trends-info-container {
+}
+
+.top-trends h2 {
+  color: hsl(233, 8%, 79%);
+}
+
+.top-trends .nav-link {
+  color: hsl(240, 100%, 5%) !important;
+}
+
+.top-trends .nav-link:hover {
+  color: hsl(5, 85%, 63%) !important;
 }
