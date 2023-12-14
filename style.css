@@ -92,8 +92,44 @@ aside hr {
 
 .top-trends .nav-link {
   color: hsl(240, 100%, 5%) !important;
+  font-weight: 800;
 }
 
 .top-trends .nav-link:hover {
   color: hsl(5, 85%, 63%) !important;
+}
+
+@media (max-width: 576px) {
+  nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: hsl(36, 100%, 99%);
+    height: 100vh;
+    width: 65vw;
+    z-index: 1;
+    padding-top: 45px;
+    padding-right: 20px;
+  }
+
+  .menu-icon-container {
+  }
+  .menu-container {
+    display: block !important;
+    margin-top: 20px;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column !important;
+    margin-top: 100px;
+    margin-left: 15px;
+  }
+  .menu .nav-item {
+    margin-bottom: 10px;
+  }
+  .menu .nav-link {
+    color: hsl(240, 100%, 5%) !important;
+    font-weight: 500;
+  }
 }
